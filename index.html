@@ -29,13 +29,13 @@ git stat<!--
 		<hr class="form-line"></hr>
 
 		<center>
-			<form action="" class="form">
+			<form action="" class="form" name="form" onsubmit="return validate_form ( )">
 				<h1 class="form__title">Formularz rekrutacyjny</h1>
 				<fieldset>
 					<div class="form__info">
-						<input type="text" placeholder="Imię">
-						<input type="text" placeholder="Nazwisko">
-						<input type="email" placeholder="E-mail">
+						<input type="text" name="text" placeholder="Imię" value="name">
+						<input type="text" name="text" placeholder="Nazwisko" value="second name">
+						<input type="email" name="email" placeholder="E-mail" value="email">
 					</div>
 					<h2 class="subtitle">Sekcje, które Cię interesują:</h2>
 					<div class="form__section">
