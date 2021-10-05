@@ -58,10 +58,13 @@ body {
     grid-template-columns: repeat(2, auto);
     grid-gap: 10px;
   }
-  &__section input {
+  &__elem {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  input {
+    margin-right: 7px;
   }
 }
 .subtitle {

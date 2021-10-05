@@ -65,7 +65,7 @@ body {
   grid-gap: 10px;
 }
 
-.form__section input {
+.form__elem {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,6 +75,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.form input {
+  margin-right: 7px;
 }
 
 .subtitle {
