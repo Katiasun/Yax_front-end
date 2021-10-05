@@ -1,0 +1,59 @@
+git stat<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Yax | Software House Frontend Task - HTML
+
+	W tym pliku znajduje się struktura strony z formularzem. Twoim zadaniem jest stworzenie oraz upiększenie
+	formularza. Przeanalizuj poniższy kod. Jego znajomość będzie potrzebna do przerobienia
+	pliku form.css odpowiedzialnego za styl strony. Gdy zapoznasz się ze strukturą strony,
+	przejdź do pliku css/form.css lub js/validation.js po dalsze instrukcje.
+
+    Powodzenia!
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yax | Software House Frontend Task</title>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+	<section id="task-frontend">
+
+		<span class="basic-title">Dołącz do nas już teraz!</span>
+
+		<hr class="form-line"></hr>
+
+		<center>
+			<form action="" class="form">
+				<h1 class="form__title">Formularz rekrutacyjny</h1>
+				<fieldset>
+					<div class="form__info">
+						<input type="text" placeholder="Imię">
+						<input type="text" placeholder="Nazwisko">
+						<input type="email" placeholder="E-mail">
+					</div>
+					<h2 class="subtitle">Sekcje, które Cię interesują:</h2>
+					<div class="form__section">
+						<input type="checkbox">front-end
+						<input type="checkbox">mobile
+						<input type="checkbox">backend
+						<input type="checkbox">grafika
+					</div>
+					<button class="fom__button" type="submit">Wyślij</button>
+				</fieldset>
+			</form>
+		</center>
+
+
+	</section>
+
+<!-- zaimportowanie pliku z kodem javascript, który dokona walidacji danych (zadanie JS) -->
+<script type="text/javascript" src="js/validation.js"></script>
+
+</body>
+</html>
